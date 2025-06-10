@@ -157,13 +157,13 @@ yF5KJL7oN9Xbl6uRKJRm6EZxujuRcEyDwqPgi1AxM4gKbjA5zXT5WCavEhLOKDLF
 
 -----END PRIVATE KEY-----
 
-## Pem file là gì ?
+# Pem file là gì ?
 Tệp PEM (Privacy Enhanced Mail) là một định dạng lưu trữ dữ liệu mật mã như chứng chỉ SSL/TLS, khóa riêng, khóa công khai hoặc chứng chỉ của cơ quan cấp chứng chỉ (CA). Tệp PEM thường được sử dụng trong SSL/TLS, máy chủ web, OpenSSL và cả trong SSH để bảo mật thông tin liên lạc. Các phần mở rộng phổ biến bao gồm .pem, .crt, .cer và .key và được mã hóa Base64.
 
-## Private key ssl là gì ?
+# Private key ssl là gì ?
 Là file mã hoá được sinh ra cùng lúc khi tạo CSR. Để đơn giản, hãy hình dung CRT là phần mã hoá công khai được trình duyệt sử dụng để truy cập đến website của bạn. Vậy khi dữ liệu đến được website sẽ cần chìa khoá để mở khoá thông tin được mã hoá ở CRT.
 
-## PFX file là gì ? Cách chuyển từ file crt file sang PFX file.
+# PFX file là gì ? Cách chuyển từ file crt file sang PFX file.
 File PFX (Personal Exchange Format), còn được gọi là PKCS #12, là một định dạng tệp chứa các chứng chỉ bảo mật và các khóa mã hóa liên quan.
 
 Đây là một tệp tin nhị phân được sử dụng để lưu trữ cả chứng chỉ công khai (public certificate) và khóa riêng (private key) trong một tệp duy nhất, thường được bảo vệ bằng mật khẩu để đảm bảo an toàn.
