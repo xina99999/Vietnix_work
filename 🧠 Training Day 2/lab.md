@@ -161,10 +161,13 @@ Giải thích:
 
 ## Đổi OWNER USER/GROUP
 - Đổi user
+  
 ![Screenshot from 2025-06-10 15-28-28](https://github.com/user-attachments/assets/2b942486-c87f-4c2d-94cf-8507f3333d2a)
 - Đổi group
+  
 ![Screenshot from 2025-06-10 15-30-01](https://github.com/user-attachments/assets/a2f325ae-b642-4bc6-8ce7-0f25164b8a10)
 - Set Immutable Attribute
+  
 ![Screenshot from 2025-06-10 15-32-03](https://github.com/user-attachments/assets/d4b731a7-a5e6-42c2-9bac-89b8688d3852)
 
 # 13. FIND COMMAND
