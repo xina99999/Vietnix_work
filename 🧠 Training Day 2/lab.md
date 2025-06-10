@@ -56,4 +56,10 @@
 ## SSH port custom
 ![Screenshot from 2025-06-10 11-54-48](https://github.com/user-attachments/assets/28b26b29-8b94-44d4-a23e-7de2ddd417ec)
 
+# 3. SCP
+## SCP file
+![Screenshot from 2025-06-10 11-59-15](https://github.com/user-attachments/assets/1b423b53-6b33-4d7d-960a-65ab09eabf26)
+## SCP folder
+![Screenshot from 2025-06-10 12-01-12](https://github.com/user-attachments/assets/5455fe3c-d1b9-446c-a9d8-ec50e6cf4800)
+
 
