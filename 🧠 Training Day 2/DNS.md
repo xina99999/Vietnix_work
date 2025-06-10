@@ -8,7 +8,7 @@ DNS (Domain Name System) là hệ thống phân giải tên miền thành địa
 - Mỗi thiết bị/website có địa chỉ IP duy nhất trên Internet
 
 ## 3. Cách hoạt động
-![Quy trình DNS](https://vietnix.vn/dns-la-gi/)
+[Quy trình DNS](https://vietnix.vn/dns-la-gi/)
 
 1. **Truy vấn**: Trình duyệt gửi yêu cầu đến DNS resolver
 2. **Kiểm tra cache**: Tìm trong bộ nhớ tạm trước khi hỏi server
