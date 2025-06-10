@@ -62,4 +62,29 @@
 ## SCP folder
 ![Screenshot from 2025-06-10 12-01-12](https://github.com/user-attachments/assets/5455fe3c-d1b9-446c-a9d8-ec50e6cf4800)
 
+# 4. RSYNC
+## RSYNC FILE
+![Screenshot from 2025-06-10 13-36-46](https://github.com/user-attachments/assets/4a132c6b-d956-4b92-893b-5be9840f9fe3)
+
+## RSYNC FOLDER
+![Screenshot from 2025-06-10 13-40-45](https://github.com/user-attachments/assets/b50dfeef-2048-49f2-9e7e-b09b594cb9d4)
+
+## RSYNC INCREAMENTAL
+![Screenshot from 2025-06-10 13-50-00](https://github.com/user-attachments/assets/7d56e47d-c1a3-4309-9747-18e4eb71793a)
+
+#  4. CAT COMMAND
+# CAT FILE
+![Screenshot from 2025-06-10 13-52-46](https://github.com/user-attachments/assets/a79fb935-41a1-4a4a-aa3e-c422fd160f63)
+
+# CAT dòng thứ <n> trong file
+![Screenshot from 2025-06-10 14-04-30](https://github.com/user-attachments/assets/c512e31b-1c67-4363-880e-2987606c822e)
+
+# cat nhiều dòng vào 1 file bằng EOF
+![Screenshot from 2025-06-10 14-08-29](https://github.com/user-attachments/assets/fb12a979-d443-4dc9-86a1-f06d4f42b8e8)
+
+
+
+
+
+
 
