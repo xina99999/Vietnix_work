@@ -1,5 +1,25 @@
+## Chuyển web từ vps sang hosts dùng All-in-One WP Migration and Backup 
+Bước 1 Đặng nhập aapanel và tải file .wpess
+![Screenshot from 2025-06-12 17-24-23](https://github.com/user-attachments/assets/a1b0e26f-e6ae-4416-8bb1-bce3373e8b16)
+Bước 2 Hosts name trên máy 
+![Screenshot from 2025-06-12 17-23-09](https://github.com/user-attachments/assets/f3ade735-2793-4c5f-b58f-d76aa2d53e5c)
+Bước 3 Đăng nhập cpanel và đăng file .wpess vào tệp backup
+![Screenshot from 2025-06-12 17-26-02](https://github.com/user-attachments/assets/0ac18948-c6b8-4292-9a03-5cfcb61c873d)
+
+Bước 4 Vào  software tạo trang wp bacis
+
+![Screenshot from 2025-06-12 17-26-47](https://github.com/user-attachments/assets/59fefa22-e91f-4a89-a8e6-d3bae8844b73)
+
+Bước 5 Add plugin All-in-One WP Migration
+![Screenshot from 2025-06-12 17-27-36](https://github.com/user-attachments/assets/ac2af313-262b-457a-976d-56d46fb780ef)
+Bước 5 Vào phần backup trên plugin All-in-One WP Migration nhấn restore
+![Screenshot from 2025-06-12 17-28-44](https://github.com/user-attachments/assets/6ce15048-8820-4b3e-a823-d1c2767447cf)
+Bước 6 Vào kiểm tra trang web
+![Screenshot from 2025-06-12 17-29-43](https://github.com/user-attachments/assets/a0d3add5-762f-49a6-9a1a-00d363335a98)
 
 
+
+## Phân biệt LiteSpeed Cache và WP-Optimize
 ###  **1. LiteSpeed Cache**
 
 #### 🔧 **Mục đích sử dụng:**
