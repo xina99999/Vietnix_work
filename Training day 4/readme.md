@@ -1,4 +1,5 @@
 ## Chuyển web từ vps sang hosts dùng All-in-One WP Migration and Backup 
+### WEB WP
 Bước 1 Đặng nhập aapanel và tải file .wpess
 ![Screenshot from 2025-06-12 17-24-23](https://github.com/user-attachments/assets/a1b0e26f-e6ae-4416-8bb1-bce3373e8b16)
 Bước 2 Hosts name trên máy 
@@ -16,6 +17,7 @@ Bước 5 Vào phần backup trên plugin All-in-One WP Migration nhấn restore
 ![Screenshot from 2025-06-12 17-28-44](https://github.com/user-attachments/assets/6ce15048-8820-4b3e-a823-d1c2767447cf)
 Bước 6 Vào kiểm tra trang web
 ![Screenshot from 2025-06-12 17-29-43](https://github.com/user-attachments/assets/a0d3add5-762f-49a6-9a1a-00d363335a98)
+
 
 
 
