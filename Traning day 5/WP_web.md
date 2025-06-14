@@ -63,6 +63,9 @@ chmod -R 755 /var/www/wp.nhan.vietnix.tech
         AllowOverride All
         Require all granted
     </Directory>
+     <FilesMatch \.php$>
+        SetHandler "proxy:unix:/run/php/php8.2-fpm.sock|fcgi://localhost" 
+    </FilesMatch>
 
     ErrorLog ${APACHE_LOG_DIR}/wp_error.log
     CustomLog ${APACHE_LOG_DIR}/wp_access.log combined
