@@ -83,7 +83,7 @@ sudo systemctl reload apache2
 
 ## 🌐 4. Cấu hình NGINX reverse proxy
 
-**File:** `/etc/nginx/sites-available/laravel.nhan.vietnix.tech.conf`
+**File:** `/etc/nginx/sites-available/laravel.nhan.vietnix.tech`
 
 ```nginx
 server {
@@ -104,6 +104,32 @@ server {
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
     }
 }
+
+server {
+    listen 443 ssl http2;
+    server_name laravel.nhan.vietnix.tech;
+
+   # ssl_certificate     /etc/ssl/certs/laravel.crt;
+   # ssl_certificate_key /etc/ssl/private/laravel.key;
+
+    location / {
+        proxy_pass https://127.0.0.1:8081;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    }
+
+    location /phpmyadmin {
+        proxy_pass https://127.0.0.1:8081/phpmyadmin;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    }
+
+    ssl_certificate /etc/letsencrypt/live/laravel.nhan.vietnix.tech/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/laravel.nhan.vietnix.tech/privkey.pem; # managed by Certbot
+}
+
 ```
 
 ### Kích hoạt cấu hình:
