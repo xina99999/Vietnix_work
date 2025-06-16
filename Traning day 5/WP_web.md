@@ -165,7 +165,7 @@ define('DB_HOST', 'localhost');
 
 ## 🧪 8. Kiểm tra hoạt động
 
-* Truy cập WordPress: `http://wp.nhan.vietnix.tech`
+* Truy cập WordPress: `https://wp.nhan.vietnix.tech`
 *
 ---
 
