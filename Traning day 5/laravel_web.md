@@ -90,19 +90,7 @@ server {
     listen 80;
     server_name laravel.nhan.vietnix.tech;
 
-    location / {
-        proxy_pass http://127.0.0.1:8081;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-    }
-
-    location /phpmyadmin {
-        proxy_pass http://127.0.0.1:8081/phpmyadmin;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-    }
+    return 301 https://$host$request_uri;
 }
 
 server {
@@ -142,7 +130,7 @@ sudo nginx -t && sudo systemctl reload nginx
 ---
 
 
-## 🛠️ 6. Khởi tạo cơ sở dữ liệu WordPress
+## 🛠️ 6. Khởi tạo cơ sở dữ liệu Laravel
 
 ### 6.1. Import file SQL:
 
@@ -168,10 +156,13 @@ APP_KEY=base64:r1rWzyoZI1BBaEl2b879J3OoGlQA6yJh7fZoQ7ySU48=
 ```
 
 ---
+## 8. Sửa file AppServiceProvider.php
+![Screenshot from 2025-06-16 10-32-17](https://github.com/user-attachments/assets/b28f57a4-30f8-41c0-88b7-f0974c87edf3)
 
-## 🧪 8. Kiểm tra hoạt động
 
-* Truy cập web: `http://laravel.nhan.vietnix.tech`
+## 🧪 9. Kiểm tra hoạt động
+
+* Truy cập web: `https://laravel.nhan.vietnix.tech`
 *
 ---
 
