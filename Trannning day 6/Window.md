@@ -1,6 +1,3 @@
-Rất tốt! Nếu bạn muốn thực hiện mọi thứ bằng **giao diện đồ họa (UI)** trên Windows, mình sẽ hướng dẫn chi tiết từng bước theo giao diện. Chúng ta chia làm 2 phần lớn:
-
----
 
 # 🛡️ PHẦN 1: CẤU HÌNH WINDOWS FIREWALL BẰNG GIAO DIỆN (UI)
 
